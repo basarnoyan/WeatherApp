@@ -1,17 +1,15 @@
-//
-//  WeatherModel.swift
-//  Clima
-//
-//  Created by Başar Noyan on 26.07.2024.
-//  Copyright © 2024 App Brewery. All rights reserved.
-//
+
 
 import Foundation
 
-struct WeatherModel{
+struct WeatherModel: Codable{
     let conditionId: Int
     let temperature: Double
     let cityName: String
+    let tempMax: Double
+    let tempMin: Double
+    let feelsLike: Double
+    let humidity: Int
     
     var conditionName: String{
         switch conditionId {
@@ -33,7 +31,23 @@ struct WeatherModel{
     }
     
     var temperatureString: String{
-        return String(format: "%0.1f", temperature) 
+        return String(Int(temperature))
+    }
+    
+    var tempMaxString: String{
+        return String(Int(tempMax))
+    }
+    
+    var tempMinString: String{
+        return String(Int(tempMin))
+    }
+    
+    var feelsLikeString: String{
+        return String(Int(feelsLike))
+    }
+    
+    var humidityString: String{
+        return String(Int(humidity))
     }
     
    

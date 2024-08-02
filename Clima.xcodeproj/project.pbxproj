@@ -11,6 +11,11 @@
 		A040B9332C53B35800B0C466 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040B9322C53B35800B0C466 /* WeatherData.swift */; };
 		A040B9352C53C73800B0C466 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040B9342C53C73800B0C466 /* WeatherModel.swift */; };
 		A040B93C2C57ABC300B0C466 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040B93B2C57ABC300B0C466 /* TableViewCell.swift */; };
+		A040B93E2C57BE7E00B0C466 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040B93D2C57BE7E00B0C466 /* WeatherViewModel.swift */; };
+		A040B9402C57D76100B0C466 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A040B93F2C57D76100B0C466 /* WeatherTableViewCell.xib */; };
+		A040B9482C5B731C00B0C466 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A040B9472C5B731C00B0C466 /* DetailsViewController.swift */; };
+		A0994E862C5CC635003A7036 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0994E882C5CC635003A7036 /* Localizable.strings */; };
+		A0994E8B2C5CCA34003A7036 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0994E8A2C5CCA34003A7036 /* Label.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
 		ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */; };
@@ -27,6 +32,13 @@
 		A040B9322C53B35800B0C466 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = SOURCE_ROOT; };
 		A040B9342C53C73800B0C466 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 		A040B93B2C57ABC300B0C466 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A040B93D2C57BE7E00B0C466 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherViewModel.swift; path = Clima/Classes/WeatherViewModel.swift; sourceTree = SOURCE_ROOT; };
+		A040B93F2C57D76100B0C466 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		A040B9472C5B731C00B0C466 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A0994E832C5CC5BC003A7036 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		A0994E872C5CC635003A7036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0994E892C5CC644003A7036 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0994E8A2C5CCA34003A7036 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				A040B93B2C57ABC300B0C466 /* TableViewCell.swift */,
+				A0994E8A2C5CCA34003A7036 /* Label.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A0994E7C2C5BBC4D003A7036 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				A0994E882C5CC635003A7036 /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		ADAA27A4231BBFAF00365194 = {
@@ -79,6 +100,7 @@
 		ADAA27AF231BBFAF00365194 /* Clima */ = {
 			isa = PBXGroup;
 			children = (
+				A0994E7C2C5BBC4D003A7036 /* Localization */,
 				A040B9362C57AB1800B0C466 /* Classes */,
 				ADAA27B0231BBFAF00365194 /* AppDelegate.swift */,
 				ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */,
@@ -98,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */,
+				A040B9472C5B731C00B0C466 /* DetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAA27B6231BBFAF00365194 /* Main.storyboard */,
+				A040B93F2C57D76100B0C466 /* WeatherTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +140,7 @@
 				A040B9302C53870C00B0C466 /* WeatherManager.swift */,
 				A040B9322C53B35800B0C466 /* WeatherData.swift */,
 				A040B9342C53C73800B0C466 /* WeatherModel.swift */,
+				A040B93D2C57BE7E00B0C466 /* WeatherViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +187,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = ADAA27A4231BBFAF00365194;
 			productRefGroup = ADAA27AE231BBFAF00365194 /* Products */;
@@ -183,7 +209,9 @@
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
+				A0994E862C5CC635003A7036 /* Localizable.strings in Resources */,
 				ADAA27C6231BC02C00365194 /* light_background.pdf in Resources */,
+				A040B9402C57D76100B0C466 /* WeatherTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,10 +224,13 @@
 			files = (
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
 				A040B9332C53B35800B0C466 /* WeatherData.swift in Sources */,
+				A040B9482C5B731C00B0C466 /* DetailsViewController.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				A040B9312C53870C00B0C466 /* WeatherManager.swift in Sources */,
 				A040B9352C53C73800B0C466 /* WeatherModel.swift in Sources */,
+				A040B93E2C57BE7E00B0C466 /* WeatherViewModel.swift in Sources */,
 				A040B93C2C57ABC300B0C466 /* TableViewCell.swift in Sources */,
+				A0994E8B2C5CCA34003A7036 /* Label.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,10 +238,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A0994E882C5CC635003A7036 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0994E872C5CC635003A7036 /* en */,
+				A0994E892C5CC644003A7036 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		ADAA27B6231BBFAF00365194 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ADAA27B7231BBFAF00365194 /* Base */,
+				A0994E832C5CC5BC003A7036 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -230,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -290,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

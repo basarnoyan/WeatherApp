@@ -1,30 +1,46 @@
-//
-//  DetailsViewController.swift
-//  Clima
-//
-//  Created by Başar Noyan on 1.08.2024.
-//  Copyright © 2024 App Brewery. All rights reserved.
-//
-
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var line: UIImageView!
+    @IBOutlet weak var conditionImageView: UIImageView!
+    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var tempMinLabel: UILabel!
+    @IBOutlet weak var tempMaxLabel: UILabel!
+    @IBOutlet weak var feelsLikeLabel: UILabel!
+    @IBOutlet weak var humidityLabel: UILabel!
+    
+    
+    var weather: WeatherModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        line.transform = CGAffineTransformMakeRotation(0.784)
+        
+        if let weather = weather {
+            updateUI(with: weather)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func updateUI(with weather: WeatherModel) {
+        conditionImageView.image = UIImage(systemName: weather.conditionName)
+        temperatureLabel.text = weather.temperatureString
+        cityLabel.text = weather.cityName
+        // Diğer label'lar için API'dan çekilen detaylı verileri ekleyin
+        tempMinLabel.text = "\(weather.tempMinString)"
+        tempMaxLabel.text = "\(weather.tempMaxString)"
+        feelsLikeLabel.text = "\(weather.feelsLikeString)"
+        humidityLabel.text = "\(weather.humidityString)%"
     }
-    */
-
 }
+    
+    
+
+   
+
+
+
+
+
