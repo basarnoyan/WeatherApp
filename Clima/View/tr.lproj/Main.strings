@@ -1,0 +1,72 @@
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "2eh-wL-W34"; */
+"2eh-wL-W34.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Max"; ObjectID = "4rc-op-9GY"; */
+"4rc-op-9GY.text" = "Max";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "5ol-aC-TsZ"; */
+"5ol-aC-TsZ.text" = "21";
+
+/* Class = "UILabel"; text = "°"; ObjectID = "9w7-dw-zvT"; */
+"9w7-dw-zvT.text" = "°";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "AOn-nc-spg"; */
+"AOn-nc-spg.text" = "C";
+
+/* Class = "UILabel"; text = "London"; ObjectID = "CWP-r8-Jsy"; */
+"CWP-r8-Jsy.text" = "London";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "DcX-ch-5Ww"; */
+"DcX-ch-5Ww.text" = "C";
+
+/* Class = "UILabel"; text = "°"; ObjectID = "L2g-cu-ied"; */
+"L2g-cu-ied.text" = "°";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "MHH-vY-Mrb"; */
+"MHH-vY-Mrb.text" = "C";
+
+/* Class = "UILabel"; text = "°"; ObjectID = "N7Y-Fj-S2q"; */
+"N7Y-Fj-S2q.text" = "°";
+
+/* Class = "UILabel"; text = "°"; ObjectID = "Pa2-6S-Tsc"; */
+"Pa2-6S-Tsc.text" = "°";
+
+/* Class = "UILabel"; text = "84"; ObjectID = "XGb-Sn-9ya"; */
+"XGb-Sn-9ya.text" = "84";
+
+/* Class = "UILabel"; text = "London"; ObjectID = "Xw7-La-FO0"; */
+"Xw7-La-FO0.text" = "London";
+
+/* Class = "UILabel"; text = "Now"; ObjectID = "dQY-IF-8Rn"; */
+"dQY-IF-8Rn.text" = "Now";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "ebx-qH-Y3E"; */
+"ebx-qH-Y3E.text" = "21";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "fOx-a1-KPJ"; */
+"fOx-a1-KPJ.text" = "C";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "j11-Rv-FsK"; */
+"j11-Rv-FsK.text" = "C";
+
+/* Class = "UILabel"; text = "Feels Like"; ObjectID = "kQF-BU-SFi"; */
+"kQF-BU-SFi.text" = "Feels Like";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "kco-z8-34u"; */
+"kco-z8-34u.text" = "Humidity";
+
+/* Class = "UILabel"; text = "Min"; ObjectID = "tPi-6y-4Jf"; */
+"tPi-6y-4Jf.text" = "Min";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "w9o-tW-03D"; */
+"w9o-tW-03D.text" = "21";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "x1f-9j-nkk"; */
+"x1f-9j-nkk.text" = "21";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "zr7-Lt-N2K"; */
+"zr7-Lt-N2K.text" = "21";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "zt0-VS-PPy"; */
+"zt0-VS-PPy.text" = "%";
